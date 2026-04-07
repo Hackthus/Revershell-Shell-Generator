@@ -30,7 +30,7 @@ Clone le dépôt :
 ```bash
 git clone https://github.com/hackthus/Revershell-Shell-Generator.git
 cd Revershell-Shell-Generator
-chmod +x r3v3rsh3ll.sh
+chmod +x r3vsh3ll.sh
 ```
 ---
 
@@ -48,7 +48,7 @@ Le script affiche un warning si certaines dépendances sont manquantes.
 ##  Utilisation
 
 ```bash
-./r3v3rsh3ll.sh --host <IP> --port <PORT> [--type TYPE]
+./r3vsh3ll.sh --host <IP> --port <PORT> [--type TYPE]
 ```
 
 ### Arguments
@@ -74,7 +74,7 @@ Le script affiche un warning si certaines dépendances sont manquantes.
 ### Reverse shell PowerShell (défaut)
 
 ```bash
-./r3v3rsh3ll.sh --host 10.10.14.5 --port 4444
+./r3vsh3ll.sh --host 10.10.14.5 --port 4444
 ```
 
 ---
@@ -82,7 +82,7 @@ Le script affiche un warning si certaines dépendances sont manquantes.
 ### Reverse shell Bash
 
 ```bash
-./r3v3rsh3ll.sh --host 10.10.14.5 --port 4444 --type bash
+./r3vsh3ll.sh --host 10.10.14.5 --port 4444 --type bash
 ```
 
 ---
@@ -90,7 +90,7 @@ Le script affiche un warning si certaines dépendances sont manquantes.
 ### Tous les payloads
 
 ```bash
-./r3v3rsh3ll.sh --host 10.10.14.5 --port 4444 --type all
+./r3vsh3ll.sh --host 10.10.14.5 --port 4444 --type all
 ```
 
 ---
@@ -104,8 +104,11 @@ Le script affiche :
 * Le(s) payload(s) prêt(s) à l’emploi
 
 Exemple :
+```bash
+./r3vsh3ll.sh --host 192.168.237.133 --port 9000 --type bash
+```
 
-![r3v3rsh3ll](image.png)
+![r3vsh3ll](image.png)
 
 
 ---
