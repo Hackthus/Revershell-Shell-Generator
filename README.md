@@ -121,38 +121,12 @@ Ce projet est destiné uniquement à :
 
 ---
 
-##  Détails techniques
-
-### PowerShell
-
-* Encodage en **Base64 UTF-16LE**
-* Compatible avec `powershell -enc`
-
-### Bash
-
-* Méthodes :
-
-  * `/dev/tcp`
-  * `mkfifo` (plus stable)
-
-### Python
-
-* Support Python 2 et 3
-* Utilisation de `pty.spawn` pour un shell interactif
-
-### Netcat
-
-* Version avec `-e`
-* Fallback universel avec `mkfifo`
-
-
----
 
 ##  Auteur
 
 **Hackthus**
 
-
+---
 
 
 
