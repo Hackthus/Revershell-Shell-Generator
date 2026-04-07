@@ -28,8 +28,8 @@ Un script Bash simple et efficace pour générer rapidement des **reverse shells
 Clone le dépôt :
 
 ```bash
-git clone https://github.com/hackthus/reverse-shell-generator.git
-cd reverse-shell-generator
+git clone https://github.com/hackthus/Revershell-Shell-Generator.git
+cd Revershell-Shell-Generator
 chmod +x r3v3rsh3ll.sh
 ```
 ---
