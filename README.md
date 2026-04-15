@@ -113,7 +113,7 @@ Le script affiche :
 
 Exemple :
 ```bash
-./r3vsh3ll.sh --host 192.168.237.133 --port 9000 --type bash
+./r3vsh3ll.sh --host 192.168.237.133 --port 6667 --type bash
 ```
 Démarrage du script et mise en écoute
 
