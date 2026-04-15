@@ -90,5 +90,5 @@ fi
 # =========================
 #  Fin
 # =========================
-echo -e "${GREEN}[+] Installation terminée 🚀${NC}"
+echo -e "${GREEN}[+] Installation terminée ${NC}"
 echo -e "Utilisation : ${YELLOW}r3vsh3ll --host <IP> --port <PORT>${NC}"

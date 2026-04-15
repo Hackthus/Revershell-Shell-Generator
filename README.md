@@ -1,6 +1,6 @@
 #  Reverse Shell Generator
 
-Un script Bash simple et efficace pour générer rapidement des **reverse shells** dans différents langages lors de tests d’intrusion ou de laboratoires (CTF, HTB, etc.).
+Un script Bash simple et efficace pour générer rapidement des **reverse shells** dans différents langages lors de laboratoires (CTF, HTB, etc.).
 
 ---
 
@@ -115,10 +115,17 @@ Exemple :
 ```bash
 ./r3vsh3ll.sh --host 192.168.237.133 --port 9000 --type bash
 ```
+Démarrage du script et mise en écoute
 
-![r3vsh3ll](image.png)
+![Listener](Listener.png)
 
+Exécution du payload sur la cible
 
+![target](target.png)
+
+Récupération de la connection (revershell)
+
+![revershell](reverse-shell.png)
 ---
 
 ## ⚠️ Avertissement
@@ -129,8 +136,6 @@ Ce projet est destiné uniquement à :
 * des environnements de **lab / CTF**
 
  Toute utilisation non autorisée est illégale.
-
----
 
 
 ##  Auteur
