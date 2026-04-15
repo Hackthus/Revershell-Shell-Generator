@@ -113,9 +113,10 @@ Le script affiche :
 
 Exemple :
 ```bash
-./r3vsh3ll.sh --host 192.168.237.133 --port 6667 --type bash
+r3vsh3ll --host 192.168.237.133 --port 6667 --type bash
 ```
 Démarrage du script et mise en écoute
+Vous pouvez utiliser n'importe quel type de listener
 
 ![Listener](Listener.png)
 
@@ -126,6 +127,7 @@ Exécution du payload sur la cible
 Récupération de la connection (revershell)
 
 ![revershell](reverse-shell.png)
+
 ---
 
 ## ⚠️ Avertissement
@@ -138,9 +140,8 @@ Ce projet est destiné uniquement à :
  Toute utilisation non autorisée est illégale.
 
 
-##  Auteur
 
-**Hackthus**
+**Mr Hackthus**
 
 ---
 
