@@ -8,15 +8,15 @@ Un script Bash simple et efficace pour générer rapidement des **reverse shells
 
 * Génération de reverse shells :
 
-  * PowerShell (encodé Base64)
-  * Bash
-  * Python (2 & 3)
-  * Netcat
+  - PowerShell (encodé Base64)
+  - Bash
+  - Python (2 & 3)
+  - Netcat
 * Affichage automatique d’un **listener Netcat**
 * Validation des entrées :
 
-  * Adresse IP
-  * Port
+  - Adresse IP
+  - Port
 * Interface CLI claire avec couleurs
 * Vérification des dépendances
 * Mode `all` pour afficher tous les payloads
@@ -32,16 +32,24 @@ git clone https://github.com/hackthus/Revershell-Shell-Generator.git
 cd Revershell-Shell-Generator
 chmod +x r3vsh3ll.sh
 ```
+
 ---
+
+## Installation automatique (recommandée)
+
+```bash
+chmod +x install.sh
+./install.sh
+```
 
 ##  Dépendances
 
 les fonctionnalités nécessitent :
 
-* `nc` (netcat)
-* `rlwrap` (optionnel mais recommandé)
-* `iconv` (pour PowerShell)
-* `base64` (pour PowerShell)
+- `nc` (netcat)
+- `rlwrap` (optionnel mais recommandé)
+- `iconv` (pour PowerShell)
+- `base64` (pour PowerShell)
 
 Le script affiche un warning si certaines dépendances sont manquantes.
 
