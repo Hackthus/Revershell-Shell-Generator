@@ -56,7 +56,7 @@ Le script affiche un warning si certaines dépendances sont manquantes.
 ##  Utilisation
 
 ```bash
-./r3vsh3ll.sh --host <IP> --port <PORT> [--type TYPE]
+r3vsh3ll --host <IP> --port <PORT> [--type TYPE]
 ```
 
 ### Arguments
@@ -90,7 +90,7 @@ Le script affiche un warning si certaines dépendances sont manquantes.
 ### Reverse shell Bash
 
 ```bash
-./r3vsh3ll.sh --host 10.10.14.5 --port 4444 --type bash
+r3vsh3ll --host 10.10.14.5 --port 4444 --type bash
 ```
 
 ---
@@ -98,7 +98,7 @@ Le script affiche un warning si certaines dépendances sont manquantes.
 ### Tous les payloads
 
 ```bash
-./r3vsh3ll.sh --host 10.10.14.5 --port 4444 --type all
+r3vsh3ll --host 10.10.14.5 --port 4444 --type all
 ```
 
 ---
@@ -114,8 +114,12 @@ Le script affiche :
 Exemple :
 ```bash
 r3vsh3ll --host 192.168.237.133 --port 6667 --type bash
+
 ```
-Démarrage du script et mise en écoute
+
+![image](image.png)
+
+Démarrage du script et mise en écoute  
 Vous pouvez utiliser n'importe quel type de listener
 
 ![Listener](Listener.png)
