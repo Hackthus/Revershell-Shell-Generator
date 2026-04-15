@@ -1,6 +1,6 @@
 #  Reverse Shell Generator
 
-Un script Bash simple et efficace pour générer rapidement des **reverse shells** dans différents langages lors de laboratoires (CTF, HTB, etc.).
+Un script Bash simple et efficace pour générer rapidement des **reverse shells** dans différents langages lors de laboratoires et CTF (Tryhackme, HTB, etc..).
 
 ---
 
